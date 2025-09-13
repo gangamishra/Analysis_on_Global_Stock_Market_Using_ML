@@ -7,11 +7,6 @@ Dataset: Daily trading records from multiple global stock exchanges.
 Target Variable: PortfolioOpen (value of portfolio at start of trading day).
 Features: Stock indices (NIFTY50, S&P 500, FTSE100, Hang Seng), commodity prices (Gold, Brent), cryptocurrency (BTC/INR), bond yields, and currency exchange rates (USD/INR, GBP/INR).
 
-**Objective**:
-Clean and preprocess raw stock data
-Explore correlations and insights using EDA
-Apply different ML models to predict PortfolioOpen
-Identify the best performing model
 
 **DATA**:
 1)PortfolioOpen -The total value of your investment portfolio of the start of trading day.

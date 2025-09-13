@@ -1,14 +1,18 @@
 **REGRESSION PROJECT**-
+
 **OBJECTIVE**:“To predict global stock market performance using Machine Learning and identify the best model for forecasting Portfolio open".
+
 **Project Overview**-
 Dataset: Daily trading records from multiple global stock exchanges.
 Target Variable: PortfolioOpen (value of portfolio at start of trading day).
 Features: Stock indices (NIFTY50, S&P 500, FTSE100, Hang Seng), commodity prices (Gold, Brent), cryptocurrency (BTC/INR), bond yields, and currency exchange rates (USD/INR, GBP/INR).
+
 **Objective**:
 Clean and preprocess raw stock data
 Explore correlations and insights using EDA
 Apply different ML models to predict PortfolioOpen
 Identify the best performing model
+
 **DATA**:
 1)PortfolioOpen -The total value of your investment portfolio of the start of trading day.
 2)PreviousIndiaTradingDate-The date of last trading session in indian markets.
@@ -27,8 +31,10 @@ Identify the best performing model
 15)PreviousIndia5yrBondYieldClose-The yield on Indian5-year government bonds at the previous close.
 16)USDINRLastClose-Last recorded exchange rate for US Dollar to Indian Rupee.
 17)GBPINRLastClose-Last recorded exchange rate for British Pound to Indian Rupee.
+
 **Exploratory Data Analysis (EDA)**:
 Line Plots,Scatter Plots,Histograms,Pairplots,Correlation Heatmap.
+
 **Best Model Performance**
 The Gradient Boosting Regressor achieved the highest accuracy:
 R² Score: 0.9580 (80:20 train-test split)
